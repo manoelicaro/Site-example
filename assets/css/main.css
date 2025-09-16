@@ -87,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		background: #14213d; /* azul escuro institucional */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -102,7 +102,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #f8f9fa; /* branco quase puro */
 		font-family: "Open Sans", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
@@ -140,8 +140,8 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
-		color: inherit;
+		border-bottom: dotted 1px #fca311; /* dourado */
+		color: #219ebc; /* azul claro */
 		text-decoration: none;
 	}
 
@@ -150,7 +150,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #fff;
+		color: #fca311; /* dourado para destaque */
 		font-weight: 600;
 	}
 
@@ -163,7 +163,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: #219ebc; /* azul claro para títulos */
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
@@ -233,7 +233,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #fff;
+		border-bottom: solid 2px #fca311; /* dourado */
 		margin: 3em 0;
 	}
 
@@ -242,7 +242,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 4px #fff;
+		border-left: solid 4px #219ebc;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -2412,11 +2412,11 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: #fca311; /* dourado */
 		border-radius: 3px;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #fff;
-		color: #fff;
+		box-shadow: none;
+		color: #14213d !important; /* azul escuro para contraste */
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2487,9 +2487,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #219ebc !important; /* azul claro */
 			box-shadow: none !important;
-			color: #ffffff !important;
+			color: #fff !important;
 		}
 
 			input[type="submit"].primary:hover,
